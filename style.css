@@ -58,7 +58,6 @@ body{
     color: #e5e7ebb4;
     flex-wrap: wrap;
     margin: 8px 0px;
-    
 }
 
 .signup-button{
@@ -68,7 +67,6 @@ body{
     padding: 8px 24px;
     border-radius: 10px;
     border: none;
-    
 }
 
 ul{ 
@@ -77,13 +75,11 @@ ul{
     display: flex;
     padding: 0px;
     gap: 10px;
-    
 }
 
 a{
     color: white;
     text-decoration: none;
-    
 }
 
 .image-placeholder{
@@ -101,6 +97,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 #information{
@@ -133,5 +130,31 @@ a{
 .card-text{
     color: #0000008e;
     text-align: center;
+}
 
+.quote-body{
+    background-color: #e5e7eb;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-author{
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
 }
