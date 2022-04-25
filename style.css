@@ -141,7 +141,7 @@ a{
 }
 
 .quote-container{
-    width: 600px;
+    width: 700px;
     display: flex;
     flex-direction: column;
 }
@@ -157,4 +157,32 @@ a{
     font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.call-to-action-body{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar{
+    width: 900px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.bar>.signup-button{
+    border: 1px solid white;
+}
+
+#bar-title{
+    font-weight: 700;
+    font-size: 18px;
 }
