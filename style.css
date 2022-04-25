@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.top-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding-bottom: 100px;
+    
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.content-container{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 128px;
+
+}
+.top-left-content{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#hero-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+#hero-subtext{
+    font-size: 18px;
+    color: #e5e7ebb4;
+    contras
+    flex-wrap: wrap;
+    margin: 8px 0px;
+    
+}
+
+.signup-button{
+    background-color: #3882f6;
+    color: white;
+    font-weight: 700;
+    padding: 8px 24px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+ul{ 
+     
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    gap: 10px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.image-placeholder{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.middel-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-list{
+    display: flex;
+    gap: 32px;
+}
+
+.card{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.card-box{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.card-text{
+    color: #0000008e;
+    text-align: center;
+
+}
